@@ -6,4 +6,4 @@ json.extract!(user,
     :updated_at,
 )
 
-json.url user_url(user, format: :json)
+json.url v1_user_url(user, format: :json)
